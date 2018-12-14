@@ -1,0 +1,257 @@
+/*Modular scale : 1.6em */
+body{
+    background-image: url("images/poem.jpg");
+    background-repeat:repeat-y;
+    background-attachment: scroll;
+    color: aliceblue
+        
+        
+}
+
+h1{
+ 
+    font-size: 4.096em;
+}
+h2{
+    font-size:2.56em;
+        
+}
+h3{
+    font-size:1.6em;
+}
+body{
+    background-color: #fffff;
+    
+}
+.font1{
+    font-family: "Abel"; 
+    
+    font-size:4.906em;
+    
+}
+.font2{
+    font-family: "poppins";
+    font-size:4.096em;
+    
+}
+.font3{
+    font-family:"Reenie Beanie";
+    font-size: 4.096em;
+    
+}
+.font4{
+    font-family: "Homemade Apple";
+    font-size: 4.096em;
+}
+.font5{
+    font-family: "Nothing You Could Do";
+    font-size: 4.096em;
+}
+
+li{
+    display: inline-grid;
+}
+p{
+    margin-left:.5em;
+}
+.navigation{
+    text-align: inline;
+    float:right;
+    clear:left;
+    clear: both;
+}
+
+.colorbox1{
+    background-color: #5a342d;
+  position: float;
+  height: 10em;
+  width: 10em;
+  
+    
+}
+.colorbox2{
+    background-color: #727c81;
+  position: float;
+  height: 10em;
+  width: 10em;
+  
+    
+}
+.colorbox3{
+    background-color: #167348;
+  position: float;
+  height: 10em;
+  width: 10em;
+  
+    
+}
+.colorbox4{
+    background-color: #5d0056;
+  position: float;
+  height: 10em;
+  width: 10em;
+  
+    
+}
+.colorbox5{
+    background-color: #253868;
+  position: float;
+  height: 10em;
+  width: 10em;
+  
+    
+}
+
+.photo1{
+    width:100%;
+    height:500px;
+}
+#name{
+    font-family: "Nothing you could do";
+    color:#ffff;
+    
+}
+#section1{
+    margin-bottom:15em ;
+}
+
+#centerp{
+    
+    text-align: center;
+    margin-bottom: 5em;
+    Font-family:"Abel";
+    font-size: 2.56em;
+    font-weight:700;
+    color:#253868;
+    background-color: aliceblue;
+    
+}
+#character{
+    padding: 5%;
+    /*background-image: url(images/flower.jpg); */
+    background-attachment: scroll;
+    
+        
+}
+
+
+#box1{
+    background-color: green;
+    height: 20em;
+    width:20em;
+    
+    
+    margin-bottom:5em;
+    margin-left:10%;
+}
+#box2{
+    background-color: blue;
+    height: 20em;
+    width:20em;
+    margin-bottom:5em;
+    margin-left:40%;
+        
+}
+#box3{
+    background-color: red;
+    height: 20em;
+    width:20em;
+    margin-left:70%;
+    
+        
+}
+#story1img{
+    float:right;
+    height:50%;
+    width:50%;
+    
+}
+
+
+#story2img{
+    float:right;
+    height:50%;
+    width:50%;
+    
+}
+
+
+#story3img{
+    float:right;
+    height:50%;
+    width:50%;
+    
+}
+
+.stories{
+    padding-top: 1em;
+    text-align: left;
+    font-size: 2.6em;
+    font-family: "Reenie Beanie";
+       
+    
+}
+.storyimg{
+    float:right;
+    height:30%;
+    width:30%;
+ 
+}
+
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #253868;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+    font-family: abel;
+    font-size: 1.0em;
+    
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #253868;
+  color: #5a342d;
+}
+
+#gallery{
+   
+    
+}
+
+
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    
+  float: left;
+  width: 25%;
+  padding: 1em;
+    background-color: aliceblue;
+}
+
+/* Clear floats after image containers */
+.gallery::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}

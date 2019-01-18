@@ -166,6 +166,8 @@ p{
     
         
 }
+
+/* Images */
 #story1img{
     float:right;
     height:50%;
@@ -241,7 +243,7 @@ p{
 
 
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Three image containers  */
 .column {
     
   float: left;
@@ -261,7 +263,7 @@ p{
     width: 100%;
   }
 }
-
+/* changed the cursor */
 .grabbing {
     cursor: grab;
 }
